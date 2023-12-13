@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PK\\wwwroot\\Index.html",
+      "PackagePath": "staticwebassets\\Index.html"
+    },
+    {
+      "Id": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PK\\wwwroot\\Models\\Transaction.js",
+      "PackagePath": "staticwebassets\\Models\\Transaction.js"
+    },
+    {
+      "Id": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PK\\wwwroot\\Models\\User.js",
+      "PackagePath": "staticwebassets\\Models\\User.js"
+    },
+    {
+      "Id": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PK\\wwwroot\\Models\\UserAccount.js",
+      "PackagePath": "staticwebassets\\Models\\UserAccount.js"
+    },
+    {
+      "Id": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PK\\wwwroot\\Script.js",
+      "PackagePath": "staticwebassets\\Script.js"
+    },
+    {
+      "Id": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PK\\wwwroot\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\StyleSheet.css"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BankingDemo_PK.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.BankingDemo_PK.props",
+      "PackagePath": "build\\BankingDemo_PK.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.BankingDemo_PK.props",
+      "PackagePath": "buildMultiTargeting\\BankingDemo_PK.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.BankingDemo_PK.props",
+      "PackagePath": "buildTransitive\\BankingDemo_PK.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
