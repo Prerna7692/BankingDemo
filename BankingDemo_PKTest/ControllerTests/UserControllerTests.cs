@@ -1,11 +1,7 @@
 using BankingDemo_PK.Controllers;
-using BankingDemo_PK;
-using System.Web.Http.Results;
-using BankingDemo_PK.Models;
-using Microsoft.AspNetCore.Mvc;
 using BankingDemo_PK.Data;
 
-namespace BankingDemo_PKTest
+namespace BankingDemo_PKTest.ControllerTests
 {
     [TestClass]
     public class UserControllerTests

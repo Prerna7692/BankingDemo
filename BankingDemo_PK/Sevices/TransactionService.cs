@@ -5,72 +5,107 @@ namespace BankingDemo_PK.Sevices
 {
     public class TransactionService : ITransactionService
     {
-        public string Deposit(Transaction transaction)
+        /// <summary>
+        /// Deposit transaction details
+        /// </summary>
+        /// <param name="transaction"></param>
+        /// <returns></returns>
+        public async Task<TransactionResult> Deposit(Transaction transaction)
         {
+            TransactionResult result = new TransactionResult();
             try
             {
+                //Fetch existing account to validate the transaction.
                 var existingDetails = Dummydata.UserAccounts.FirstOrDefault(x => x.userId == transaction.userId && x.accountId == transaction.accountId);
+                
+                //Validate transaction
                 if (existingDetails == null)
                 {
-                    return "no account found.";
+                    result.message = "no account found.";
                 }
-
-                if (transaction == null)
+                else if (transaction == null)
                 {
-                    return "no transaction data found.";
+                    result.message = "No transaction data found.";
                 }
                 else if (transaction.amount <= 0)
                 {
-                    return "Please enter valid amount.";
+                    result.message = "Please enter valid amount.";
                 }
                 else if (transaction.amount > 10000)
                 {
-                    return "Please enter valid amount. Cannot deposit amount above 10,000";
+                    result.message = "Please enter valid amount. Cannot deposit amount above 10,000";
+                }
+                //Add transaction to transactions and Update the available balance in the UserAccount.
+                else
+                {
+                    Dummydata.Transactions.Add(transaction);
+
+                    //Add amount to available balance.
+                    Dummydata.UserAccounts.FirstOrDefault(x => x.userId == transaction.userId && x.accountId == transaction.accountId).availableBalance = transaction.amount + existingDetails.availableBalance;
+
+                    var updatedDetails = Dummydata.UserAccounts.FirstOrDefault(x => x.userId == transaction.userId && x.accountId == transaction.accountId);
+                    result.message = "Deposit successful! Your Available balance is : $" + updatedDetails?.availableBalance;
+                    result.availableBalance = updatedDetails?.availableBalance;
                 }
 
-                Dummydata.Transactions.Add(transaction);
-                Dummydata.UserAccounts.FirstOrDefault(x => x.userId == transaction.userId && x.accountId == transaction.accountId).availableBalance = transaction.amount + existingDetails.availableBalance;
-
-                return "Deposit successful! Your Available balance is : $" + Dummydata.UserAccounts.Single(x => x.userId == transaction.userId && x.accountId == transaction.accountId).availableBalance;
+                return result;
             }
-            catch(Exception e)
+            catch (Exception exception)
             {
-                throw;
+                result.message = exception.Message;
+                return result;
             }
         }
 
-        public string Withdraw(Transaction transaction)
+        public async Task<TransactionResult> Withdraw(Transaction transaction)
         {
+            TransactionResult result = new TransactionResult();
             try
             {
+                //Fetch existing account to validate the transaction.
                 var existingDetails = Dummydata.UserAccounts.FirstOrDefault(x => x.userId == transaction.userId && x.accountId == transaction.accountId);
                 if (existingDetails == null)
                 {
-                    return "no account found.";
+                    result.message = "no account found.";
                 }
                 // Validate the request
-                if (transaction == null)
+                else if (transaction == null)
                 {
-                    return "no transaction data found.";
+                    result.message = "no transaction data found.";
                 }
                 else if (transaction.amount <= 0)
                 {
-                    return "Please enter valid amount.";
+                    result.message = "Please enter valid amount.";
                 }
                 else if (transaction.amount > existingDetails.availableBalance * (0.9))
                 {
-                    return "Please enter valid amount. Cannot withdraw amount above 90% of current balance";
+                    result.message = "Please enter valid amount. Cannot withdraw amount above 90% of current balance";
                 }
+                //Add transactio to transactions and Update the available balance in the UserAccount.
+                else
+                {
+                    Dummydata.Transactions.Add(transaction);
 
-                Dummydata.Transactions.Add(transaction);
-                Dummydata.UserAccounts.FirstOrDefault(x => x.userId == transaction.userId && x.accountId == transaction.accountId).availableBalance = existingDetails.availableBalance - transaction.amount;
+                    //deduct amount to available balance.
+                    Dummydata.UserAccounts.FirstOrDefault(x => x.userId == transaction.userId && x.accountId == transaction.accountId).availableBalance = existingDetails.availableBalance - transaction.amount;
 
-                return "Withdrawal successful! Your Available balance is : $" + Dummydata.UserAccounts.Single(x => x.userId == transaction.userId && x.accountId == transaction.accountId).availableBalance;
+                    var updatedDetails = Dummydata.UserAccounts.Single(x => x.userId == transaction.userId && x.accountId == transaction.accountId);
+                    result.message = "Withdrawal successful! Your Available balance is : $" + updatedDetails.availableBalance;
+                    result.availableBalance = updatedDetails.availableBalance;
+                }
+                return result;
             }
-            catch (Exception e)
+            catch (Exception exception)
             {
-                throw;
+                result.message = exception.Message;
+                return result;
             }
         }
+    }
+
+    public class TransactionResult
+    {
+        public string message { get; set;}
+        public int? availableBalance { get; set;}
     }
 }

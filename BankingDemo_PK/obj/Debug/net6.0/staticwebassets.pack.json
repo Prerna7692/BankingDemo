@@ -1,27 +1,27 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PK\\wwwroot\\Index.html",
+      "Id": "C:\\Users\\prerna.kaushik\\Desktop\\BankingDemo\\BankingDemo_PK\\wwwroot\\Index.html",
       "PackagePath": "staticwebassets\\Index.html"
     },
     {
-      "Id": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PK\\wwwroot\\Models\\Transaction.js",
+      "Id": "C:\\Users\\prerna.kaushik\\Desktop\\BankingDemo\\BankingDemo_PK\\wwwroot\\Models\\Transaction.js",
       "PackagePath": "staticwebassets\\Models\\Transaction.js"
     },
     {
-      "Id": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PK\\wwwroot\\Models\\User.js",
+      "Id": "C:\\Users\\prerna.kaushik\\Desktop\\BankingDemo\\BankingDemo_PK\\wwwroot\\Models\\User.js",
       "PackagePath": "staticwebassets\\Models\\User.js"
     },
     {
-      "Id": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PK\\wwwroot\\Models\\UserAccount.js",
+      "Id": "C:\\Users\\prerna.kaushik\\Desktop\\BankingDemo\\BankingDemo_PK\\wwwroot\\Models\\UserAccount.js",
       "PackagePath": "staticwebassets\\Models\\UserAccount.js"
     },
     {
-      "Id": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PK\\wwwroot\\Script.js",
+      "Id": "C:\\Users\\prerna.kaushik\\Desktop\\BankingDemo\\BankingDemo_PK\\wwwroot\\Script.js",
       "PackagePath": "staticwebassets\\Script.js"
     },
     {
-      "Id": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PK\\wwwroot\\StyleSheet.css",
+      "Id": "C:\\Users\\prerna.kaushik\\Desktop\\BankingDemo\\BankingDemo_PK\\wwwroot\\StyleSheet.css",
       "PackagePath": "staticwebassets\\StyleSheet.css"
     },
     {

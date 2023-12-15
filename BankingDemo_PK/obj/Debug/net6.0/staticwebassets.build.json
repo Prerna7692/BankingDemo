@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XmaggecE3CrkPxqUsynunMeRw659VrOhQKdm4kRqSYA=",
+  "Hash": "SI7B8STUX5TkORXdAgSHCPm9miJxp0i2/CdZftWIz9c=",
   "Source": "BankingDemo_PK",
   "BasePath": "_content/BankingDemo_PK",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BankingDemo_PK\\wwwroot",
       "Source": "BankingDemo_PK",
-      "ContentRoot": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\prerna.kaushik\\Desktop\\BankingDemo\\BankingDemo_PK\\wwwroot\\",
       "BasePath": "_content/BankingDemo_PK",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PK\\wwwroot\\Index.html",
+      "Identity": "C:\\Users\\prerna.kaushik\\Desktop\\BankingDemo\\BankingDemo_PK\\wwwroot\\Index.html",
       "SourceId": "BankingDemo_PK",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\prerna.kaushik\\Desktop\\BankingDemo\\BankingDemo_PK\\wwwroot\\",
       "BasePath": "_content/BankingDemo_PK",
       "RelativePath": "Index.html",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\Index.html"
     },
     {
-      "Identity": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PK\\wwwroot\\Models\\Transaction.js",
+      "Identity": "C:\\Users\\prerna.kaushik\\Desktop\\BankingDemo\\BankingDemo_PK\\wwwroot\\Models\\Transaction.js",
       "SourceId": "BankingDemo_PK",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\prerna.kaushik\\Desktop\\BankingDemo\\BankingDemo_PK\\wwwroot\\",
       "BasePath": "_content/BankingDemo_PK",
       "RelativePath": "Models/Transaction.js",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\Models\\Transaction.js"
     },
     {
-      "Identity": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PK\\wwwroot\\Models\\User.js",
+      "Identity": "C:\\Users\\prerna.kaushik\\Desktop\\BankingDemo\\BankingDemo_PK\\wwwroot\\Models\\User.js",
       "SourceId": "BankingDemo_PK",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\prerna.kaushik\\Desktop\\BankingDemo\\BankingDemo_PK\\wwwroot\\",
       "BasePath": "_content/BankingDemo_PK",
       "RelativePath": "Models/User.js",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\Models\\User.js"
     },
     {
-      "Identity": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PK\\wwwroot\\Models\\UserAccount.js",
+      "Identity": "C:\\Users\\prerna.kaushik\\Desktop\\BankingDemo\\BankingDemo_PK\\wwwroot\\Models\\UserAccount.js",
       "SourceId": "BankingDemo_PK",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\prerna.kaushik\\Desktop\\BankingDemo\\BankingDemo_PK\\wwwroot\\",
       "BasePath": "_content/BankingDemo_PK",
       "RelativePath": "Models/UserAccount.js",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\Models\\UserAccount.js"
     },
     {
-      "Identity": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PK\\wwwroot\\Script.js",
+      "Identity": "C:\\Users\\prerna.kaushik\\Desktop\\BankingDemo\\BankingDemo_PK\\wwwroot\\Script.js",
       "SourceId": "BankingDemo_PK",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\prerna.kaushik\\Desktop\\BankingDemo\\BankingDemo_PK\\wwwroot\\",
       "BasePath": "_content/BankingDemo_PK",
       "RelativePath": "Script.js",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\Script.js"
     },
     {
-      "Identity": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PK\\wwwroot\\StyleSheet.css",
+      "Identity": "C:\\Users\\prerna.kaushik\\Desktop\\BankingDemo\\BankingDemo_PK\\wwwroot\\StyleSheet.css",
       "SourceId": "BankingDemo_PK",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\prerna.kaushik\\Desktop\\BankingDemo\\BankingDemo_PK\\wwwroot\\",
       "BasePath": "_content/BankingDemo_PK",
       "RelativePath": "StyleSheet.css",
       "AssetKind": "All",

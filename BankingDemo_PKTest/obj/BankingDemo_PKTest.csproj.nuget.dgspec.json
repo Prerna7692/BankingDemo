@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PKTest\\BankingDemo_PKTest.csproj": {}
+    "C:\\Users\\prerna.kaushik\\Desktop\\BankingDemo\\BankingDemo_PKTest\\BankingDemo_PKTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PKTest\\BankingDemo_PKTest.csproj": {
+    "C:\\Users\\prerna.kaushik\\Desktop\\BankingDemo\\BankingDemo_PKTest\\BankingDemo_PKTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PKTest\\BankingDemo_PKTest.csproj",
+        "projectUniqueName": "C:\\Users\\prerna.kaushik\\Desktop\\BankingDemo\\BankingDemo_PKTest\\BankingDemo_PKTest.csproj",
         "projectName": "BankingDemo_PKTest",
-        "projectPath": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PKTest\\BankingDemo_PKTest.csproj",
+        "projectPath": "C:\\Users\\prerna.kaushik\\Desktop\\BankingDemo\\BankingDemo_PKTest\\BankingDemo_PKTest.csproj",
         "packagesPath": "C:\\Users\\prerna.kaushik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PKTest\\obj\\",
+        "outputPath": "C:\\Users\\prerna.kaushik\\Desktop\\BankingDemo\\BankingDemo_PKTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\prerna.kaushik\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PK\\BankingDemo_PK.csproj": {
-                "projectPath": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PK\\BankingDemo_PK.csproj"
+              "C:\\Users\\prerna.kaushik\\Desktop\\BankingDemo\\BankingDemo_PK\\BankingDemo_PK.csproj": {
+                "projectPath": "C:\\Users\\prerna.kaushik\\Desktop\\BankingDemo\\BankingDemo_PK\\BankingDemo_PK.csproj"
               }
             }
           }
@@ -81,14 +81,14 @@
         }
       }
     },
-    "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PK\\BankingDemo_PK.csproj": {
+    "C:\\Users\\prerna.kaushik\\Desktop\\BankingDemo\\BankingDemo_PK\\BankingDemo_PK.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PK\\BankingDemo_PK.csproj",
+        "projectUniqueName": "C:\\Users\\prerna.kaushik\\Desktop\\BankingDemo\\BankingDemo_PK\\BankingDemo_PK.csproj",
         "projectName": "BankingDemo_PK",
-        "projectPath": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PK\\BankingDemo_PK.csproj",
+        "projectPath": "C:\\Users\\prerna.kaushik\\Desktop\\BankingDemo\\BankingDemo_PK\\BankingDemo_PK.csproj",
         "packagesPath": "C:\\Users\\prerna.kaushik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\prerna.kaushik\\source\\repos\\BankingDemo_PK\\BankingDemo_PK\\obj\\",
+        "outputPath": "C:\\Users\\prerna.kaushik\\Desktop\\BankingDemo\\BankingDemo_PK\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\prerna.kaushik\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -17,38 +17,58 @@ namespace BankingDemo_PK.Controllers
             this.transactionService = _transactionService;
         }
 
+        /// <summary>
+        /// Fetch all available transactions (currently fetching from dummy data file)
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IEnumerable<Transaction> GetAll()
         {
             return Dummydata.Transactions;
         }
 
+        /// <summary>
+        /// Deposit transaction
+        /// </summary>
+        /// <param name="transaction"></param>
+        /// <returns></returns>
         [HttpPost("deposit")]
-        public IActionResult Deposit(Transaction transaction)
+        public async Task<ActionResult> Deposit(Transaction transaction)
         {
-            try
+            if (transaction == null)
             {
-                var result = transactionService.Deposit(transaction);
-                return Ok(result);
+                return BadRequest();
             }
-            catch (Exception ex)
+
+            var result = await transactionService.Deposit(transaction);
+            if (string.IsNullOrEmpty(result.message))
             {
-                return BadRequest(ex);
+                return Ok(result.availableBalance);
             }
+
+            return BadRequest(result.message);
         }
 
+        /// <summary>
+        /// Withdraw transaction
+        /// </summary>
+        /// <param name="transaction"></param>
+        /// <returns></returns>
         [HttpPost("withdraw")]
-        public IActionResult Withdraw(Transaction transaction)
+        public async Task<ActionResult> Withdraw(Transaction transaction)
         {
-            try
+            if (transaction == null)
             {
-                var result = transactionService.Withdraw(transaction);
-                return Ok(result);
+                return BadRequest();
             }
-            catch (Exception ex)
+
+            var result = await transactionService.Withdraw(transaction);
+            if (string.IsNullOrEmpty(result.message))
             {
-                return BadRequest(ex);
+                return Ok(result.availableBalance);
             }
+
+            return BadRequest(result.message);
         }
     }
 
